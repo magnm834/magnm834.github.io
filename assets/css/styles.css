@@ -1,4 +1,4 @@
-* {  }
+* { vertical-align: top; }
 body {
 	font-family: helvetica;
 	font-size: 0;
@@ -31,11 +31,6 @@ a:hover { color: #ffff00; }
 
 a:active { color: #fff; }
 
-div {
-
-	background: #ff0;
-	vertical-align: top;
-}
 
 .c {
 	background: #ff0;
@@ -45,12 +40,26 @@ div {
 	display: inline-block;
 }
 
+.parent {
+	font-size: 0px;
+	line-height: 0px;
+}
+
+.no-gutters { margin: 0; }
+.no-left-gutters { margin-left: 0; }
+.no-right-gutters { margin-right: 0; }
+
 .c1 { width: 130px; }
 .c2 { width: 290px; }
 .c3 { width: 450px; }
 .c4 { width: 610px; }
 .c5 { width: 770px; }
 .c6 { width: 930px; }
+
+img {
+	width: 100%;
+	height: auto;
+}
 
 
 
