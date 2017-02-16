@@ -1,0 +1,106 @@
+@font-face { font-family: helveticaneue; src: url('HelveticaNeue.dfont'); } 
+body {
+	font-family: helvetica neue  ;
+	font-size: 0;
+	margin:0;
+	padding:0;
+}
+
+.wrapper {
+	width: 100%;
+	b/*ackground: grey;*/
+	margin: 0 auto;
+}
+
+.info {
+	font-size: 20px;
+	position: fixed;
+	right: 0;
+	top:0;
+	bottom: 0;
+	background-color: yellow;
+	width: 20%;
+	display: none;
+}
+
+.barcode-wrapper:hover .info {
+	display: block;
+}
+
+
+.navbar {
+	width: 100%;
+	background-color: black;
+	margin:0;
+	padding:0;
+}
+
+.header h2 {
+	font-size: 18pt;
+	font-weight: lighter;
+	color: white;
+	text-align: center;
+	margin: 0;
+	padding-top: 20px;
+	padding-bottom: 15px;
+}
+.food_groups ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.food_groups li {
+	display: inline-block;
+	width: 100px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.food_groups p {
+	font-size: 9pt;
+	font-weight: lighter;
+	color: white;
+	text-align: center;
+	margin: 0;
+	display: inline-block;
+}
+
+.food_groups p:hover {
+text-decoration: underline;
+}
+
+.barcodes img {
+	 vertical-align: bottom;
+	 padding-bottom: 20px;
+}
+ 
+.brighten img:hover {
+  -webkit-filter: brightness(50%);
+}
+
+.overlay .rice img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
+}
+
+.rice img:click .overlay {
+  opacity: .5;
+}
+
+
+
+
+
+
+
+
