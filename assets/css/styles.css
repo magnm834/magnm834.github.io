@@ -25,6 +25,10 @@ a: {
 	background-color: #ccc;
 }
 
+.info {
+	font-size: 20px;
+}
+
 a:visited { color: #00f; }
 
 a:hover { color: #ffff00; }
@@ -61,29 +65,67 @@ img {
 	height: auto;
 }
 
+/*ackground: grey;
 
 
+/*@font-face { font-family: helveticaneue; src: url('HelveticaNeue.dfont'); }
+
+body {
+	font-family: helveticaneue;
+	font-size: 0;
+	margin: 0;
+	padding:0;
+}
+
+.wrapper {
+	width: 100%;
+	margin: 0 auto;
+}
 
 
+.navbar {
+	width: 100%;
+	background-color: white;
+	margin:0;
+	padding:0;
+}
+
+.header h2 {
+	font-size: 18pt;
+	font-weight: lighter;
+	color: black;
+	text-align: center;
+	margin: 0;
+	padding-top: 20px;
+	padding-bottom: 15px;
+}
+.classes ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.classes li {
+	display: inline-block;
+	width: 60px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.classes a {
+	font-size: 9pt;
+	font-weight: lighter;
+	color: black;
+	text-align: center;
+	margin: 0;
+	display: inline-block;
+	text-decoration: none;
+}
+
+.classes a:hover {
+text-decoration: underline;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+*/
