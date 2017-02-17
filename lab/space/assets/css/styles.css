@@ -13,14 +13,44 @@ body {
 }
 
 .info {
+	width: 25%;
+	font-family: helvetica;
 	font-size: 20px;
+	font-weight: lighter;
+	color: white;
 	position: fixed;
 	right: 0;
 	top:0;
 	bottom: 0;
-	background-color: yellow;
+	background-color: black;
 	width: 20%;
 	display: none;
+	padding-top: 100px;
+	padding-left: 15px;
+	padding-right: 30px;
+
+}
+
+.info h1 {
+	font-size: 40px;
+	font-style: italic;
+	margin: 0;
+}
+
+.info h3 {
+	font-size: 30px;
+	font-style: normal;
+	font-weight: lighter;
+	margin-top: 0; 
+}
+
+.info p {
+	font-size: 12pt;
+	font-weight: lighter;
+}
+
+.barcode-wrapper {
+	z-index: 2
 }
 
 .barcode-wrapper:hover .info {
@@ -33,6 +63,8 @@ body {
 	background-color: black;
 	margin:0;
 	padding:0;
+	position: fixed;
+	z-index: 1
 }
 
 .header h2 {
