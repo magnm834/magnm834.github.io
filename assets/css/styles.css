@@ -22,8 +22,9 @@ body {
 }
 
 .header h2 {
+	font-family: helvetica;
 	font-size: 18pt;
-	font-weight: lighter;
+/*	font-weight: lighter;*/
 	color: black;
 	text-align: center;
 	margin: 0;

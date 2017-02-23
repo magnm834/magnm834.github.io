@@ -1,6 +1,6 @@
-
+@font-face { font-family: helveticaneue; src: url('HelveticaNeue.dfont'); } 
 body {
-	font-family: helvetica;
+	font-family: helvetica neue  ;
 	font-size: 0;
 	margin:0;
 	padding:0;
@@ -15,7 +15,6 @@ body {
 .key {
 	display: inline-block;
 	width: 10%;
-	height: 31650px;
 	left:0;
 	background: linear-gradient(white, black);
 	z-index: 0;
@@ -23,24 +22,59 @@ body {
 	margin-top: 100px;
 }
 
-.ul li {
-	font-family: helvetica;
-	list-style: none;
+
+.navbar {
 	width: 100%;
+	background-color: black;
+	margin:0;
+	padding:0;
+	position: fixed;
+	z-index: 1
 }
 
-.days-one {
-	margin-top: 4709px;
+.header h2 {
+	margin: 0;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	text-align: center;
 }
 
-.days-two {
-	margin-top: 1230px;
+.header a {
+	font-family: helvetica;
+	font-size: 18pt;
+	font-weight: lighter;
+	color: white;
+	
 }
 
-.days-three {
-	margin-top: 993px;
+.food_groups ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
 }
 
+.food_groups li {
+	display: inline-block;
+	width: 100px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.food_groups a {
+	font-family: helvetica;
+	font-size: 9pt;
+	font-weight: lighter;
+	color: white;
+	text-align: center;
+	margin: 0;
+	display: inline-block;
+	text-decoration: none;
+}
+
+.food_groups a:hover, .food_groups a.selected {
+text-decoration: underline;
+}
 
 .barcodes {
 	margin-top: 95px;
@@ -57,7 +91,7 @@ body {
 	font-weight: lighter;
 	color: black;
 	position: fixed;
-	right: 0;
+	right: 55px;
 	top:0;
 	background-color: white;
 	width: 20%;
@@ -190,62 +224,9 @@ body {
 	border:none;
 }
 
-
-
 .barcode-wrapper:hover .info {
 	display: block;
 }
-
-
-.navbar {
-	width: 100%;
-	background-color: black;
-	margin:0;
-	padding:0;
-	position: fixed;
-	z-index: 1
-}
-
-.header h2 {
-	font-family: helvetica;
-	font-size: 18pt;
-	font-weight: lighter;
-	color: white;
-	text-align: center;
-	margin: 0;
-	padding-top: 20px;
-	padding-bottom: 15px;
-}
-.food_groups ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	text-align: center;
-}
-
-.food_groups li {
-	display: inline-block;
-	width: 100px;
-	text-align: center;
-	padding-bottom: 20px;
-}
-
-.food_groups a {
-	font-family: helvetica;
-	font-size: 9pt;
-	font-weight: lighter;
-	color: white;
-	text-align: center;
-	margin: 0;
-	display: inline-block;
-	text-decoration: none;
-}
-
-.food_groups a:hover {
-text-decoration: underline;
-}
-
-
 
 
 
