@@ -14,12 +14,14 @@ body {
 
 .key {
 	display: inline-block;
-	width: 10%;
+	width: 9%;
+	height:13850px;
 	left:0;
-	background: linear-gradient(white, black);
+	background-image: url(../img/lines.png);
+	background-size: fill;
 	z-index: 0;
 	position: absolute;
-	margin-top: 100px;
+	margin-top: 95px;
 }
 
 
