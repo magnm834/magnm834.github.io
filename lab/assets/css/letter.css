@@ -1,0 +1,66 @@
+body {
+	margin: 50px;
+	padding: 0;
+	font-size:0;
+}
+
+.container {
+	background: yellow;
+	width: 150px;
+	height: 150px;
+	position: fixed;
+	overflow: hidden;
+	bottom: 25px;
+	right: 25px;
+}
+
+.red-square {
+	width: 100px;
+	height: 100px;
+	background:#f00;
+	position: absolute;
+	bottom:0;
+	right: 0;
+}
+
+.blue-square {
+	width: 100px;
+	height: 100px;
+	background:#00f;
+}
+.letter-wrapper{
+	display: inline-block;
+	margin:0 15px 60px 15px;
+}
+
+.letter {
+	width: 150px;
+	height: 200px;
+	background:#F8F8F8;
+	position: relative;
+
+}
+
+.bar {
+	position: absolute;
+	background:black;
+	border-radius: 15px;
+}
+
+.bar.vertical {
+	height: 100%;
+	width: 20%;
+}
+
+.bar.horizontal {
+	height: 15%;
+	width: 100%;
+}
+
+.mid {top:43.5%;}
+
+.right {right:0px;}
+
+.red {background: #f00;}
+.blue {background: blue;}
+.yellow {background: yellow;}
