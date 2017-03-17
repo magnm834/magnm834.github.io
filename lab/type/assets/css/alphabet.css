@@ -1,0 +1,610 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin-left: 10px;
+  vertical-align: bottom;
+}
+
+
+.letter {
+  width: 110px;
+  height: 205px;
+  background:white;
+  display: inline-block;
+  margin: 5px;
+  position: relative;
+}
+
+.letter_long {
+  width: 110px;
+  height: 260px;
+  background:white;
+  display: inline-block;
+  margin: 5px;
+  position: relative;
+}
+
+.letter_wide {
+  width: 220px;
+  height: 205px;
+  background:white;
+  display: inline-block;
+  margin: 5px;
+  position: relative;
+}
+
+.letter_short {
+  width: 78px;
+  height: 205px;
+  background:white;
+  display: inline-block;
+  margin: 5px;
+  position: relative;
+}
+
+.letter_xshort {
+  width: 55px;
+  height: 205px;
+  background:white;
+  display: inline-block;
+  margin: 5px;
+  position: relative;
+}
+
+.border {
+  width: 0;
+  height: 0;
+  border: 0 solid transparent;
+  border-bottom-width: 0px;
+  border-top-width: 110px;
+  border-left: 110px solid black;
+  position: absolute;
+}
+
+.top {
+  width: 0;
+  height: 0;
+  border: 0 solid transparent;
+  border-top-width: 93px;
+  border-bottom-width: 0px;
+  border-left: 93px solid white;
+  position: absolute;
+  margin-top: 12px;
+  margin-left: 5px;
+}
+
+.border_long {
+  width: 0;
+  height: 0;
+  border: 0 solid transparent;
+  border-left-width: 0px;
+  border-right-width: 109px;
+  border-top: 205px solid black;
+  position: absolute;
+}
+
+.top_long {
+  width: 0;
+  height: 0;
+  border: 0 solid transparent;
+  border-left-width: 0px;
+  border-right-width: 95px;
+  border-top: 180px solid white;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.border_thin {
+  width: 0;
+  height: 0;
+  border: 0 solid transparent;
+  border-bottom-width: 0px;
+  border-top-width: 205px;
+  border-left: 55px solid black;
+  position: absolute;
+}
+
+.top_thin {
+  width: 0;
+  height: 0;
+  border: 0 solid transparent;
+  border-bottom-width: 0px;
+  border-top-width: 165px;
+  border-left: 43px solid white;
+  position: absolute;
+  top: 34px;
+  left: 5px;
+}
+
+.border_small {
+  width: 0;
+  height: 0;
+  border: 0 solid transparent;
+  border-bottom-width: 0px;
+  border-top-width: 102.5px;
+  border-left: 55px solid black;
+  position: absolute;
+}
+
+.top_small {
+  width: 0;
+  height: 0;
+  border: 0 solid transparent;
+  border-bottom-width: 0px;
+  border-top-width: 80px;
+  border-left: 43px solid white;
+  position: absolute;
+  top: 17px;
+  left: 4.4px;
+}
+
+.border_xs {
+  width: 0;
+  height: 0;
+  border: 0 solid transparent;
+  border-bottom-width: 0px;
+  border-top-width: 55px;
+  border-left: 55px solid black;
+}
+
+.top_xs {
+  width: 0;
+  height: 0;
+  border: 0 solid transparent;
+  border-bottom-width: 0px;
+  border-top-width: 45px;
+  border-left: 45px solid white;
+  margin-top: -48px;
+  margin-left: 3px;
+}
+
+.border_xxs {
+  width: 0;
+  height: 0;
+  border: 0 solid transparent;
+  border-bottom-width: 0px;
+  border-top-width: 25px;
+  border-left: 25px solid black;
+}
+
+.top_xxs {
+  width: 0;
+  height: 0;
+  border: 0 solid transparent;
+  border-bottom-width: 0px;
+  border-top-width: 12px;
+  border-left: 12px solid white;
+  margin-top: -16px;
+  margin-left: 3px;
+}
+
+
+
+/*
+THIS IS LETTER A*/
+.a_two {
+  transform: scaleX(-1);
+}
+
+/*
+THIS IS LETTER B*/
+
+.b_one {
+    transform: rotate(-135deg);
+    margin-left: -457px;
+    margin-top: 19px;
+}
+.b_two {
+    transform: rotate(-135deg);
+    margin-left: -457px;
+    margin-top: -55px;
+}
+
+/*
+THIS IS LETTER C*/
+.c_one {
+  transform: rotate(90deg);
+  margin-top: 0px;
+  margin-left: 110px;
+}
+
+.c_two{
+  margin-top: 95px;
+}
+
+/*
+THIS IS LETTER D*/
+.d_one{
+  margin-top: -5px;
+}
+
+.d_two {
+  transform: scaleY(-1);
+  margin-top: 215px;
+}
+
+/*
+THIS IS LETTER E*/
+.e_one {
+  transform: rotate(90deg);
+  margin-left: 110px;
+}
+
+.e_two{
+  margin-top: 95px;
+}
+
+.e_three{
+  margin-top: -100px;
+}
+
+.e_four {
+  transform: scaleY(-1);
+  margin-top: 310px;
+}
+
+/*
+THIS IS LETTER G*/
+
+.g_one {
+  transform: scaleY(-1);
+  margin-top: 205px;
+}
+.g_two {
+  transform: scaleY(-1);
+  margin-top: -95px;
+}
+
+.g_three {
+  transform: scaleX(-1);
+  margin-top: -110px;
+}
+
+/*
+THIS IS LETTER H*/
+
+.h_one {
+  margin-top: -4px;
+}
+
+.h_two {
+  transform: scaleX(-1);
+}
+
+.h_three {
+    transform: rotate(180deg);
+    margin-top: 215px;
+    margin-left: 90px;
+}
+
+.h_four {
+    transform: rotate(90deg);
+    margin-top: -114px;
+    margin-left: 110px;
+}
+
+/*
+THIS IS LETTER I*/
+
+.i_one {
+    transform: scaleX(-1);
+}
+
+/*
+THIS IS LETTER J*/
+
+.j_one {
+  transform: rotate(180deg);
+  margin-top: 205px;
+}
+
+.j_two {
+  margin-top: -110px;
+}
+
+/*
+THIS IS LETTER K*/
+
+.k_one {
+  transform: scaleY(-1);
+  margin-top: 205px;
+}
+.k_two {
+  transform: scaleY(-1);
+  margin-top: -95px;
+}
+
+/*
+THIS IS LETTER L*/
+
+.l_one {
+  transform: scaleY(-1);
+  margin-top: 205px;
+}
+
+.l_two {
+  transform: scaleX(-1);
+  margin-top: -110px;
+}
+
+/*
+THIS IS LETTER M*/
+
+.m_one {
+  transform: scaleY(-1);
+  margin-top: 205px;
+}
+
+.m_two {
+  transform: rotate(180deg);
+  margin-top: 185px;
+}
+
+/*
+THIS IS LETTER N*/
+
+.n_one {
+  transform: scaleY(-1);
+  margin-top: 205px;
+}
+
+.n_two {
+  transform: scaleX(-1);
+  margin-top: -205px;
+}
+
+/*
+THIS IS LETTER O*/
+
+.o_one {
+  transform: rotate(180deg);
+  margin-top: 110px;
+  margin-left: 95px;
+}
+
+.o_two {
+  transform: rotate(90deg);
+  margin-top: -110px;
+  margin-left: 110px;
+}
+
+.o_three {
+ margin-top: 205px;
+}
+
+.o_four {
+ transform: scaleX(-1);
+}
+
+/*
+THIS IS LETTER P*/
+.p_two {
+ transform: scaleX(-1);
+}
+
+/*
+THIS IS LETTER Q*/
+.q_two {
+ transform: scaleX(-1);
+ margin-top: 95px;
+}
+
+/*
+THIS IS LETTER R*/
+.r_one {
+  z-index: 1;
+}
+.r_two {
+ transform: scaleX(-1);
+}
+
+.r_three {
+ transform: rotate(180deg);
+ margin-top: 205px;
+}
+
+/*
+THIS IS LETTER S*/
+.s_one {
+  transform: scaleX(-1);
+}
+.s_two {
+ margin-top: 95px;
+}
+
+.s_three {
+   margin-top: 110px;
+   transform: rotate(180deg);
+}
+
+/*
+THIS IS LETTER T*/
+.t_one {
+  transform: rotate(180deg);
+  margin-top: 205px;
+  margin-right: 55px;
+}
+
+.t_two {
+  transform: scaleY(-1);
+  margin-left: 54px;
+}
+
+.t_three {
+    transform: rotate(180deg);
+    margin-top: -95px;
+    margin-left: 90px;
+}
+
+.t_four {
+    transform: rotate(90deg);
+    margin-top: -203px;
+    margin-left: 110px;
+}
+
+/*
+THIS IS LETTER U*/
+
+.u_two {
+  transform: scaleX(-1);
+  margin-left: 54px;
+}
+
+.u_three {
+    margin-top: 95px;
+}
+
+.u_four {
+    transform: scaleX(-1);
+    margin-top: 95px;
+}
+
+
+/*
+THIS IS LETTER V*/
+
+.v_two {
+  transform: scaleX(-1);
+  margin-left: 54px;
+}
+
+/*
+THIS IS LETTER W*/
+
+.w_two {
+  transform: scaleX(-1);
+  margin-left: 104px;
+}
+
+.w_three {
+    margin-top: 95px;
+    margin-left: 110px;
+}
+
+.w_four {
+    transform: scaleX(-1);
+    margin-top: 95px;
+    margin-right: 110px;
+}
+
+/*
+THIS IS LETTER X*/
+
+.x_two {
+  transform: rotate(180deg);
+  margin-top: 200px;
+}
+
+.x_three {
+  transform: scaleY(-1);
+  margin-top: 100px;
+  margin-right: 55px;
+}
+
+.x_four {
+  margin-top: -200px;
+  margin-left: 55px;
+  transform: scaleX(-1);
+}
+
+/*
+THIS IS LETTER Y*/
+.y_one {
+  transform: rotate(180deg);
+  margin-top: 205px;
+  margin-right: 55px;
+}
+
+.y_two {
+  transform: scaleY(-1);
+  margin-left: 54px;
+}
+
+.y_three {
+    transform: rotate(180deg);
+    margin-top: -103px;
+    margin-right: 55px;
+}
+
+.y_four {
+    transform: scaleY(-1);
+    margin-top: -102px;
+    margin-left: 55px;
+}
+
+/*
+THIS IS LETTER Z*/
+
+.z_two {
+  transform: rotate(90deg);
+  margin-left: 110px;
+}
+
+.z_three {
+   transform: scaleX(-1);
+   margin-top: 95px;
+}
+
+/*
+THIS IS LETTER QUESTION*/
+
+.question_one {
+  transform: scaleX(-1);
+}
+
+.question_two {
+   transform: rotate(90deg);
+   margin-left: 110px;
+}
+
+.question_three {
+  margin-top: 205px;
+  margin-left: 55px;
+}
+
+.question_four {
+  transform: rotate(180deg);
+  margin-top: -50px;
+}
+
+/*
+THIS IS LETTER PERIOS*/
+
+.period_one {
+  margin-top: 150px;
+}
+
+.period_two {
+  transform: rotate(180deg);
+  margin-top: -50px;
+
+}
+
+/*
+THIS IS LETTER COMMA*/
+
+.comma_one {
+  margin-top: 150px;
+}
+
+.comma_two {
+  transform: rotate(180deg);
+  margin-top: -50px;
+
+}
+
+.comma_three {
+  transform: rotate(-180deg);
+  margin-top: 2px;
+
+}
+
+
+
+
+
+
+
