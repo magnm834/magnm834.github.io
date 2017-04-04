@@ -5,16 +5,23 @@
 body {
   margin-left: 10px;
   vertical-align: bottom;
+  background:black;
 }
 
-.character {
-  visibility: hidden;
+.characters {
+  display:none;
 }
-
+.enter {
+  width: 100%;
+  height: 20px;
+  background:yellow;
+  display: inline-block;
+  position: relative;
+}
 .letter {
   width: 110px;
   height: 205px;
-  background:white;
+  background:black;
   display: inline-block;
   margin: 5px;
   position: relative;
@@ -23,7 +30,7 @@ body {
 .letter_long {
   width: 110px;
   height: 260px;
-  background:white;
+  background:black;
   display: inline-block;
   margin: 5px;
   position: relative;
@@ -32,7 +39,7 @@ body {
 .letter_wide {
   width: 220px;
   height: 205px;
-  background:white;
+  background:black;
   display: inline-block;
   margin: 5px;
   position: relative;
@@ -41,7 +48,7 @@ body {
 .letter_short {
   width: 78px;
   height: 205px;
-  background:white;
+  background:black;
   display: inline-block;
   margin: 5px;
   position: relative;
@@ -50,7 +57,7 @@ body {
 .letter_xshort {
   width: 55px;
   height: 205px;
-  background:white;
+  background:black;
   display: inline-block;
   margin: 5px;
   position: relative;
@@ -62,7 +69,7 @@ body {
   border: 0 solid transparent;
   border-bottom-width: 0px;
   border-top-width: 110px;
-  border-left: 110px solid black;
+  border-left: 110px solid white;
   position: absolute;
 }
 
@@ -72,7 +79,7 @@ body {
   border: 0 solid transparent;
   border-top-width: 93px;
   border-bottom-width: 0px;
-  border-left: 93px solid white;
+  border-left: 93px solid black;
   position: absolute;
   margin-top: 12px;
   margin-left: 5px;
@@ -84,7 +91,7 @@ body {
   border: 0 solid transparent;
   border-left-width: 0px;
   border-right-width: 109px;
-  border-top: 205px solid black;
+  border-top: 205px solid white;
   position: absolute;
 }
 
@@ -94,7 +101,7 @@ body {
   border: 0 solid transparent;
   border-left-width: 0px;
   border-right-width: 95px;
-  border-top: 180px solid white;
+  border-top: 180px solid black;
   position: absolute;
   top: 5px;
   left: 5px;
@@ -106,7 +113,7 @@ body {
   border: 0 solid transparent;
   border-bottom-width: 0px;
   border-top-width: 205px;
-  border-left: 55px solid black;
+  border-left: 55px solid white;
   position: absolute;
 }
 
@@ -116,7 +123,7 @@ body {
   border: 0 solid transparent;
   border-bottom-width: 0px;
   border-top-width: 165px;
-  border-left: 43px solid white;
+  border-left: 43px solid black;
   position: absolute;
   top: 34px;
   left: 5px;
@@ -128,7 +135,7 @@ body {
   border: 0 solid transparent;
   border-bottom-width: 0px;
   border-top-width: 102.5px;
-  border-left: 55px solid black;
+  border-left: 55px solid white;
   position: absolute;
 }
 
@@ -138,7 +145,7 @@ body {
   border: 0 solid transparent;
   border-bottom-width: 0px;
   border-top-width: 80px;
-  border-left: 43px solid white;
+  border-left: 43px solid black;
   position: absolute;
   top: 17px;
   left: 4.4px;
@@ -150,7 +157,7 @@ body {
   border: 0 solid transparent;
   border-bottom-width: 0px;
   border-top-width: 55px;
-  border-left: 55px solid black;
+  border-left: 55px solid white;
 }
 
 .top_xs {
@@ -159,7 +166,7 @@ body {
   border: 0 solid transparent;
   border-bottom-width: 0px;
   border-top-width: 45px;
-  border-left: 45px solid white;
+  border-left: 45px solid black;
   margin-top: -48px;
   margin-left: 3px;
 }
@@ -170,7 +177,7 @@ body {
   border: 0 solid transparent;
   border-bottom-width: 0px;
   border-top-width: 25px;
-  border-left: 25px solid black;
+  border-left: 25px solid white;
 }
 
 .top_xxs {
@@ -179,7 +186,7 @@ body {
   border: 0 solid transparent;
   border-bottom-width: 0px;
   border-top-width: 12px;
-  border-left: 12px solid white;
+  border-left: 12px solid black;
   margin-top: -16px;
   margin-left: 3px;
 }
