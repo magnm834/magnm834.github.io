@@ -8,6 +8,10 @@ body {
   background:black;
 }
 
+.delete {
+  display: none;
+}
+
 .characters {
   display:none;
 }
@@ -197,6 +201,7 @@ body {
 THIS IS LETTER A*/
 .a_two {
   transform: scaleX(-1);
+  opacity: 0;
 }
 
 /*
@@ -211,6 +216,7 @@ THIS IS LETTER B*/
     transform: rotate(-135deg);
     margin-left: -457px;
     margin-top: -55px;
+    opacity: 0;
 }
 
 /*
@@ -223,6 +229,7 @@ THIS IS LETTER C*/
 
 .c_two{
   margin-top: 95px;
+  opacity: 0;
 }
 
 /*
@@ -234,6 +241,7 @@ THIS IS LETTER D*/
 .d_two {
   transform: scaleY(-1);
   margin-top: 215px;
+  opacity: 0;
 }
 
 /*
@@ -245,15 +253,22 @@ THIS IS LETTER E*/
 
 .e_two{
   margin-top: 95px;
+  opacity: 0;
 }
 
 .e_three{
   margin-top: -100px;
+  opacity: 0;
 }
 
 .e_four {
   transform: scaleY(-1);
   margin-top: 310px;
+  opacity: 0;
+}
+
+.f_two {
+  opacity: 0;
 }
 
 /*
@@ -266,11 +281,13 @@ THIS IS LETTER G*/
 .g_two {
   transform: scaleY(-1);
   margin-top: -95px;
+  opacity: 0;
 }
 
 .g_three {
   transform: scaleX(-1);
   margin-top: -110px;
+  opacity: 0;
 }
 
 /*
@@ -282,18 +299,21 @@ THIS IS LETTER H*/
 
 .h_two {
   transform: scaleX(-1);
+  opacity: 0;
 }
 
 .h_three {
     transform: rotate(180deg);
     margin-top: 215px;
     margin-left: 90px;
+    opacity: 0;
 }
 
 .h_four {
     transform: rotate(90deg);
     margin-top: -114px;
     margin-left: 110px;
+    opacity: 0;
 }
 
 /*
@@ -313,6 +333,7 @@ THIS IS LETTER J*/
 
 .j_two {
   margin-top: -110px;
+  opacity: 0;
 }
 
 /*
@@ -325,6 +346,7 @@ THIS IS LETTER K*/
 .k_two {
   transform: scaleY(-1);
   margin-top: -95px;
+  opacity: 0;
 }
 
 /*
@@ -338,6 +360,7 @@ THIS IS LETTER L*/
 .l_two {
   transform: scaleX(-1);
   margin-top: -110px;
+  opacity: 0;
 }
 
 /*
@@ -351,6 +374,7 @@ THIS IS LETTER M*/
 .m_two {
   transform: rotate(180deg);
   margin-top: 185px;
+  opacity: 0;
 }
 
 /*
@@ -364,6 +388,7 @@ THIS IS LETTER N*/
 .n_two {
   transform: scaleX(-1);
   margin-top: -205px;
+  opacity: 0;
 }
 
 /*
@@ -379,20 +404,24 @@ THIS IS LETTER O*/
   transform: rotate(90deg);
   margin-top: -110px;
   margin-left: 110px;
+  opacity: 0;
 }
 
 .o_three {
  margin-top: 205px;
+ opacity: 0;
 }
 
 .o_four {
  transform: scaleX(-1);
+ opacity: 0;
 }
 
 /*
 THIS IS LETTER P*/
 .p_two {
  transform: scaleX(-1);
+ opacity: 0;
 }
 
 /*
@@ -400,6 +429,7 @@ THIS IS LETTER Q*/
 .q_two {
  transform: scaleX(-1);
  margin-top: 95px;
+ opacity: 0;
 }
 
 /*
@@ -409,11 +439,13 @@ THIS IS LETTER R*/
 }
 .r_two {
  transform: scaleX(-1);
+ opacity: 0;
 }
 
 .r_three {
  transform: rotate(180deg);
  margin-top: 205px;
+ opacity: 0;
 }
 
 /*
@@ -423,11 +455,13 @@ THIS IS LETTER S*/
 }
 .s_two {
  margin-top: 95px;
+ opacity: 0;
 }
 
 .s_three {
    margin-top: 110px;
    transform: rotate(180deg);
+   opacity: 0;
 }
 
 /*
@@ -441,18 +475,21 @@ THIS IS LETTER T*/
 .t_two {
   transform: scaleY(-1);
   margin-left: 54px;
+  opacity: 0;
 }
 
 .t_three {
     transform: rotate(180deg);
     margin-top: -95px;
     margin-left: 90px;
+    opacity: 0;
 }
 
 .t_four {
     transform: rotate(90deg);
     margin-top: -203px;
     margin-left: 110px;
+    opacity: 0;
 }
 
 /*
@@ -461,15 +498,18 @@ THIS IS LETTER U*/
 .u_two {
   transform: scaleX(-1);
   margin-left: 54px;
+  opacity: 0;
 }
 
 .u_three {
     margin-top: 95px;
+    opacity: 0;
 }
 
 .u_four {
     transform: scaleX(-1);
     margin-top: 95px;
+    opacity: 0;
 }
 
 
@@ -479,6 +519,7 @@ THIS IS LETTER V*/
 .v_two {
   transform: scaleX(-1);
   margin-left: 54px;
+  opacity: 0;
 }
 
 /*
@@ -487,17 +528,20 @@ THIS IS LETTER W*/
 .w_two {
   transform: scaleX(-1);
   margin-left: 104px;
+  opacity: 0;
 }
 
 .w_three {
     margin-top: 95px;
     margin-left: 110px;
+    opacity: 0;
 }
 
 .w_four {
     transform: scaleX(-1);
     margin-top: 95px;
     margin-right: 110px;
+    opacity: 0;
 }
 
 /*
@@ -506,18 +550,21 @@ THIS IS LETTER X*/
 .x_two {
   transform: rotate(180deg);
   margin-top: 200px;
+  opacity: 0;
 }
 
 .x_three {
   transform: scaleY(-1);
   margin-top: 100px;
   margin-right: 55px;
+  opacity: 0;
 }
 
 .x_four {
   margin-top: -200px;
   margin-left: 55px;
   transform: scaleX(-1);
+  opacity: 0;
 }
 
 /*
@@ -531,18 +578,21 @@ THIS IS LETTER Y*/
 .y_two {
   transform: scaleY(-1);
   margin-left: 54px;
+  opacity: 0;
 }
 
 .y_three {
     transform: rotate(180deg);
     margin-top: -103px;
     margin-right: 55px;
+    opacity: 0;
 }
 
 .y_four {
     transform: scaleY(-1);
     margin-top: -102px;
     margin-left: 55px;
+    opacity: 0;
 }
 
 /*
@@ -551,11 +601,13 @@ THIS IS LETTER Z*/
 .z_two {
   transform: rotate(90deg);
   margin-left: 110px;
+  opacity: 0;
 }
 
 .z_three {
    transform: scaleX(-1);
    margin-top: 95px;
+   opacity: 0;
 }
 
 /*
@@ -568,16 +620,19 @@ THIS IS LETTER QUESTION*/
 .question_two {
    transform: rotate(90deg);
    margin-left: 110px;
+   opacity: 0;
 }
 
 .question_three {
   margin-top: 205px;
   margin-left: 55px;
+  opacity: 0;
 }
 
 .question_four {
   transform: rotate(180deg);
   margin-top: -50px;
+  opacity: 0;
 }
 
 /*
@@ -590,6 +645,7 @@ THIS IS LETTER PERIOS*/
 .period_two {
   transform: rotate(180deg);
   margin-top: -50px;
+  opacity: 0;
 
 }
 
@@ -603,14 +659,17 @@ THIS IS LETTER COMMA*/
 .comma_two {
   transform: rotate(180deg);
   margin-top: -50px;
+  opacity: 0;
 
 }
 
 .comma_three {
   transform: rotate(-180deg);
   margin-top: 2px;
+  opacity: 0;
 
 }
+
 
 
 
