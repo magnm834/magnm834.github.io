@@ -1,10 +1,22 @@
 var lastLetter = false;
 var lastletterpart = false;
+var entryCount = 0;
 
+
+function deleteElement() {
+  $(".letter").last().remove();
+}
 
 $(window).keydown(function(e) {
 console.log(e.which);
 
+	
+if (e.which == 8){
+      e.preventDefault();
+      entryCount ++;
+      console.log("entry #" + entryCount + " : " + e.which + " | BKSP" );
+      deleteElement ()
+    }
 
 	if (e.which == 8) {
 		if (lastletterpart == 65) {
