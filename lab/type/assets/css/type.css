@@ -38,6 +38,7 @@ body {
   display: inline-block;
   margin: 5px;
   position: relative;
+  vertical-align: top;
 }
 
 .letter_wide {
