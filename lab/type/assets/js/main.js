@@ -2,16 +2,31 @@ var lastLetter = false;
 var lastletterpart = false;
 var entryCount = 0;
 
+var wordCount = 0;
 
 function deleteElement() {
-  $(".letter").last().remove();
+  $(".delete").last().remove();
 }
+
+// function changeBackground () {
+// 	$(".white").css("background-color","black");
+// 	$(".black").addClass("white").removeClass("black");
+// 	$(".blackl").css("background-color","white");
+// 	$("body").css("background-color","white");
+// }
+
 
 $(window).keydown(function(e) {
 console.log(e.which);
 
+	// $(".button").click(changeBackground);
+
+	function blinker() {
+	$(".blink").fadeOut(500);
+	$(".blink").fadeIn(500);
+}
 	
-if (e.which == 8){
+	if (e.which == 8){
       e.preventDefault();
       entryCount ++;
       console.log("entry #" + entryCount + " : " + e.which + " | BKSP" );
@@ -26,10 +41,10 @@ if (e.which == 8){
 
 	if (e.which == 65) {
 		if (lastLetter == 65) {
-			$(".stage:last-child .a_two").css("opacity",1);
+			$(".word-" + wordCount + ":last-child .a_two").css("opacity",1);
 			lastLetter = false;
 		} else {
-			$(".stage").append($(".a").clone().removeClass("a"));
+			$(".word-" + wordCount).append($(".a").clone().removeClass("a"));
 			lastLetter = 65;
 		}
 	} 
@@ -388,6 +403,8 @@ if (e.which == 8){
 
 	if (e.which == 32) {
 	$(".stage").append($(".space").clone().removeClass("space"));
+	wordCount++;
+	$(".stage").append("<div class='word word-" + wordCount + "'></div>");
 	}
 
 	if (e.which == 13) {
