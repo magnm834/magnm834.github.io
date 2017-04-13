@@ -30,14 +30,14 @@ console.log(e.which);
       e.preventDefault();
       entryCount ++;
       console.log("entry #" + entryCount + " : " + e.which + " | BKSP" );
-      deleteElement ()
+      deleteElement();
     }
 
-	if (e.which == 8) {
-		if (lastletterpart == 65) {
-			$(".stage .a").css("opacity",0);
-		}
-	}
+	// if (e.which == 8) {
+	// 	if (lastletterpart == 65) {
+	// 		$(".stage .a").css("opacity",0);
+	// 	}
+	// }
 
 	if (e.which == 65) {
 		if (lastLetter == 65) {
@@ -409,6 +409,8 @@ console.log(e.which);
 
 	if (e.which == 13) {
 	$(".stage").append($(".enter").clone().removeClass("enter"));
+	wordCount++;
+	$(".stage").append("<div class='word word-" + wordCount + "'></div>");
 	}
 
 	if (e.which == 188) {
