@@ -1,0 +1,490 @@
+* {box-sizing: border-box;}
+
+body {
+  font-size: 0;
+  margin:0;
+  font-family: "Andale Mono";
+}
+
+.word {
+  display: none;
+}
+
+.img:hover .word {
+  display: block;
+}
+
+.mydiv {
+  font-size: 48px;
+}
+
+.columns {
+  width: 1120px;
+  margin:0 auto;
+/*  background: yellow;*/
+  margin-top: 50px;
+}
+
+.title {
+  width: 920px;
+  margin:0 auto;
+/*  background: black;*/
+/*  height: 900px;*/
+}
+
+.verse {
+  display: block;
+  margin-bottom: 100px;
+  height: 1000px; 
+}
+
+.objct {
+  position: relative;
+}
+
+.refresh {
+  width: 100px;
+  height: 100px;
+  background-image: url(../img/refresh.png);
+  size: cover;
+  top: 550px;
+  left: 25px;
+  position: fixed;
+}
+
+.next {
+  width: 100px;
+  height: 100px;
+  background-image: url(../img/next.png);
+  background-position: center;
+  position: fixed; 
+  top: 550px;
+  right: 25px;
+}
+
+.print_me {
+  background: white;
+  position: fixed; 
+  top: 88%;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 20pt;
+  color: black;
+  font-family: "AndaleMono";
+}
+
+.print_me a {
+  text-decoration: none;
+  color: black;
+}
+
+.print_me a:hover {
+  text-decoration: underline;
+}
+
+.img {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  position: absolute;
+  font-size: 24pt;
+  color: black;
+  font-family: "AndaleMono";
+  margin-top: 153px;
+  margin-left: 295px;
+}
+
+img { width: 100%; height: auto; }
+
+.img:hover {
+  background:transparent;
+}
+
+
+.text {
+  width: 300px;
+  height: 100px;
+  display: inline-block;
+  font-size: 84pt;
+  color: black;
+  font-family: "AndaleMono";
+  position: absolute;
+}
+
+.object_one {
+  margin-top: 0px;
+  margin-left: 50px;
+}
+
+.object_two {
+  margin-top: 80px;
+  margin-left: 235px;
+}
+
+.object_three {
+  margin-left: 650px;
+  margin-top: 135px;
+ 
+}
+
+.object_four {
+  margin-top: 310px;
+  margin-left: 40px;
+}
+
+
+.object_five {
+  margin-top: 350px;
+  margin-left: 270px;
+}
+
+
+.object_six {
+  margin-top: 470px;
+  margin-left: 600px;
+}
+
+.object_seven {
+  margin-top: 700px;
+  margin-left: 400px;
+}
+
+.object_eight {
+  margin-top: -45px;
+  margin-left: 35px;
+}
+
+.object_nine {
+  margin-top: -35px;
+  margin-left: 335px;
+}
+
+.object_ten {
+  margin-top: -50px;
+  margin-left: 635px;
+}
+
+.object_eleven {
+  margin-top: 150px;
+  margin-left: 70px;
+}
+
+.object_twelve {
+  margin-top: 174px;
+  margin-left: 135px;
+}
+
+.object_thirteen {
+  margin-top: 150px;
+  margin-left: 675px;
+}
+
+.object_fourteen {
+  margin-top: 500px;
+  margin-left: 335px;
+}
+
+.object_fifteen {
+  margin-top: 540px;
+  margin-left: 580px;
+}
+
+.object_sixteen {
+  margin-top: 690px;
+  margin-left: 375px;
+}
+
+.object_seventeen {
+  margin-top: 0px;
+  margin-left: 5px;
+
+}
+
+.object_eightenn {
+  margin-top: -25px;
+  margin-left: 300px;
+
+}
+
+.object_nineteen {
+  margin-top: 80px;
+  margin-left: 550px;
+
+}
+
+.object_twenty {
+  margin-top: 350px;
+  margin-left: 400px;
+
+}
+
+.object_twentyone {
+  margin-top: 600px;
+  margin-left: 15px;
+
+}
+
+.object_twentytwo {
+  margin-top: 0px;
+  margin-left: 278px;
+
+}
+
+.object_twentythree {
+  margin-top: 250px;
+  margin-left: 590px;
+
+}
+
+.object_twentyfour {
+  margin-top: 0px;
+  margin-left: 50px;
+
+}
+
+.object_twentyfive {
+  margin-top: 300px;
+  margin-left: 700px;
+
+}
+
+.object_twentysix {
+  margin-top: -90px;
+  margin-left: 5px;
+
+}
+
+.object_twentyseven {
+  margin-top: -50px;
+  margin-left: 500px;
+
+}
+
+.object_twentyeight {
+  margin-top: 200px;
+  margin-left: 250px;
+}
+
+.object_twentynine {
+  margin-top: 170px;
+  margin-left: 650px;
+
+}
+
+.object_thirty {
+  margin-top: 400px;
+  margin-left: 500px;
+
+}
+
+.object_thirtyone {
+  margin-top: 680px;
+  margin-left: 58px;
+
+}
+
+.object_thirtytwo {
+  margin-top: 720px;
+  margin-left: 670px;
+
+}
+
+.object_thirtythree {
+  margin-top: 0px;
+  margin-left: 700px;
+
+}
+
+.object_thirtyfour {
+  margin-top: 100px;
+  margin-left: 200px;
+
+}
+
+.object_thirtyfive {
+  margin-left: 650px;
+  margin-top: 125px;
+
+}
+
+.object_thirtysix {
+  margin-top: 400px;
+  margin-left: 100px;
+}
+
+.object_thirtyseven {
+  margin-top: 650px;
+  margin-left: 590px;
+
+}
+
+.object_thirtyeight {
+  margin-top: 50px;
+  margin-left: 35px;
+
+}
+
+.object_thirtynine {
+  margin-top: 90px;
+  margin-left: 335px;
+
+}
+
+.object_forty  {
+  margin-top: 45px;
+  margin-left: 800px;
+
+}
+
+.object_fortyone {
+  margin-top: 380px;
+  margin-left: 235px;
+
+}
+
+.object_fortytwo {
+  margin-top: 450px;
+  margin-left: 635px;
+
+}
+.object_fortythree {
+  margin-top: 0px;
+  margin-left: 5px;
+
+}
+
+.object_fortyfour {
+  margin-top: -25px;
+  margin-left: 300px;
+
+}
+
+.object_fortyfive {
+  margin-top: 80px;
+  margin-left: 550px;
+}
+
+.object_fortysix {
+  margin-top: 350px;
+  margin-left: 400px;
+}
+
+.object_fortyseven {
+  margin-top: 600px;
+  margin-left: 15px;
+}
+
+.object_fortyeight {
+  margin-top: 800px;
+  margin-left: 350px;
+
+}
+
+.object_fortynine {
+  margin-top: 0px;
+  margin-left: 5px;
+}
+
+.object_fifty  {
+  margin-top: -25px;
+  margin-left: 300px;
+
+}
+
+.object_fiftyone {
+  margin-top: 80px;
+  margin-left: 550px;
+
+}
+
+.object_fiftytwo {
+  margin-top: 350px;
+  margin-left: 400px;
+
+}
+
+.object_fiftythree {
+  margin-top: 0px;
+  margin-left: 70px;
+}
+
+.object_fiftyfour {
+  margin-top: 100px;
+  margin-left: 200px;
+}
+
+.object_fiftyfive {
+  margin-left: 650px;
+  margin-top: 125px;
+
+}
+
+.object_fiftysix {
+  margin-top: 400px;
+  margin-left: 100px;
+
+}
+
+.object_fiftyseven {
+  margin-top: 500px;
+  margin-left: 590px;
+
+}
+
+.object_fiftyeight {
+  margin-top: 0px;
+  margin-left: 0px;
+
+}
+
+.object_fiftynine {
+  margin-top: 80px;
+  margin-left: 235px;
+
+}
+
+.object_sixty {
+  margin-left: 650px;
+  margin-top: 135px;
+
+}
+
+.object_sixtyone {
+  margin-top: 310px;
+  margin-left: 40px;
+}
+
+.object_sixtytwo {
+  margin-top: 550px;
+  margin-left: 270px;
+
+}
+
+.object_sixtythree {
+  margin-top: 670px;
+  margin-left: 600px;
+
+}
+
+.object_sixtyfour {
+  margin-top: 0px;
+  margin-left: 5px;
+
+}
+
+.object_sixtyfive {
+  margin-top: -25px;
+  margin-left: 300px;
+
+}
+
+.object_sixtysix {
+  margin-top: 80px;
+  margin-left: 550px;
+
+}
+
+.object_sixtyseven {
+  margin-top: 350px;
+  margin-left: 400px;
+}
