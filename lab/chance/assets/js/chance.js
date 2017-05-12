@@ -171,7 +171,7 @@ var adverbsImgs 				= ["assets/img/adverbs/hopelessly.jpg",
 								   "assets/img/adverbs/freely.gif",
 								   "assets/img/adverbs/empty.jpg",
 								   "assets/img/adverbs/viciously.gif",
-								   "assets/img/adverbs/rididly.jpg",
+								   "assets/img/adverbs/rigidly.jpg",
 								   "assets/img/adverbs/wildly.gif"]
 
 
